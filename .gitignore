@@ -1,0 +1,19 @@
+# Maven target directory (compiled binaries, test reports, JARs)
+target/
+
+# Eclipse project files & metadata
+.project
+.classpath
+.settings/
+bin/
+*.launch
+
+# IntelliJ / VS Code metadata (in case opened elsewhere)
+.idea/
+*.iml
+.vscode/
+
+# OS and system clutter
+.DS_Store
+Thumbs.db
+hs_err_pid*
