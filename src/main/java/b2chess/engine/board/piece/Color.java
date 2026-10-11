@@ -14,4 +14,16 @@ public class Color {
 		throw new UnsupportedOperationException("Color class should not be instantiated.");
 	}
 
+	/**
+	 * Helper method to get the opposite color from a given color.
+	 * 
+	 * Uses the XOR operator to flip the color bit.
+	 * 
+	 * @param color - The color to find opponent of.
+	 * @return 0 or 1 depending on color.
+	 */
+	public static int getOpponentColor(final int color) {
+		return color ^ 1;
+	}
+	
 }
