@@ -10,7 +10,7 @@ public class Color {
 	public static final int WHITE = 0;
 	public static final int BLACK = 1;
 
-	public Color() {
+	private Color() {
 		throw new UnsupportedOperationException("Color class should not be instantiated.");
 	}
 
